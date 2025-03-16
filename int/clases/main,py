@@ -1,0 +1,28 @@
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+    def __init__(self, name, color):
+        self.name = name
+        self.color = color
+
+an = Animal("Жираф")
+print(an.name)
+Dog = Dog("Тузик", "Белый")
+print(Dog.name, Dog.color )
+
+a = int(input("укажите значение букве А: "))
+b = int(input("укажите значение букве Б: "))
+
+def fufu():
+    g = a * b * 100 / (a + b)
+    z = b + a
+    po = 1 + a
+    return g, z, po
+
+fufu()
+
+g, z, po = fufu()
+print(g, z, po)
+#print(fufu())
