@@ -1,6 +1,7 @@
 # Python Projects Repository
-
+<p>
 <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="python" **alt="Git" width="40" height="40"/>&nbsp;
+</p>
 
 Добро пожаловать в репозиторий Python Projects! Этот проект содержит разнообразные приложения и алгоритмы, написанные на языке Python, охватывающие множество тем от автоматизации до машинного обучения.
 
