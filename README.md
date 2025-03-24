@@ -1,6 +1,6 @@
 # Python Projects Repository
 
-![Python Logo](https://www.python.org/community/logos/python-logo-master-v3-TM.png)
+<img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="python" **alt="Git" width="40" height="40"/>&nbsp;
 
 Добро пожаловать в репозиторий Python Projects! Этот проект содержит разнообразные приложения и алгоритмы, написанные на языке Python, охватывающие множество тем от автоматизации до машинного обучения.
 
@@ -88,7 +88,7 @@ def send_email(to, subject, body):
 
 Если у вас есть вопросы или предложения, не стесняйтесь обращаться:
 
-- **TELEGRAM**: [4elobrek9](https://github.com/4elobrek9)
+- **TELEGRAM**: [4elobrek9](http://t.me/+13262155064)
 - **GitHub**: [4elobrek9](https://github.com/4elobrek9)
 
 ---
