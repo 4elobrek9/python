@@ -1,21 +1,30 @@
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy = ListNode(0)
-        current = dummy
-        carry = 0  
+        head = l1
+        prev = None
+        carry = 0
         
-        while l1 or l2 or carry:
-            val1 = l1.val if l1 else 0
-            val2 = l2.val if l2 else 0
+        while l1 and l2:
+            val = l1.val + l2.val + carry
+            carry = val // 10
+            l1.val = val % 10
+            prev = l1
+            l1 = l1.next
+            l2 = l2.next
             
-            total = val1 + val2 + carry
-            carry = total // 10  
-            digit = total % 10   
+        if l2:
+            prev.next = l2
+            l1 = l2
             
-            current.next = ListNode(digit)
-            current = current.next
+        while carry and l1:
+            val = l1.val + carry
+            carry = val // 10
+            l1.val = val % 10
+            prev = l1
+            l1 = l1.next
             
-            if l1: l1 = l1.next
-            if l2: l2 = l2.next
+
+        if carry:
+            prev.next = ListNode(carry)
             
-        return dummy.next
+        return head
